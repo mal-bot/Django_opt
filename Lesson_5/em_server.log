@@ -1,0 +1,153 @@
+    1  python3 create venv django
+    2  python3 -m venv django
+    3  sudo apt-get install python3-venv
+    4  python3 -m venv django
+    5  ls
+    6  rm -r django/
+    7  ls
+    8  cd geekshop/
+    9  python3 -m venv django
+   10  source django/bin/activate
+   11  pip install -r requirements.txt 
+   12  sudo apt-get install postgresql postgresql-contrib 
+   13  pip install -r requirements.txt 
+   14  ls
+   15  cd django/
+   16  ls
+   17  cd ..
+   18  pip install python3-dev
+   19  pip install python-dev
+   20  sudo apt-get python3-dev
+   21  sudo apt-get install python3-dev
+   22  pg_config --version
+   23  gcc --version
+   24  sudo apt install gcc
+   25  gcc --version
+   26  pip install -r requirements.txt 
+   27  sudo apt-get install libpg-dev
+   28  sudo apt-get install libpgf-dev 
+   29  pip install -r requirements.txt 
+   30  sudo apt-get install libpq-dev 
+   31  pip install -r requirements.txt 
+   32  sudo -u postgres psql
+   33  timedatectl list-timezones 
+   34  timedatectl set-timezone Asia/Yekaterinburg
+   35  timedatectl
+   36  ls
+   37  cd geekshop/
+   38  source django/bin/activate
+   39  python3 manage.py migrate
+   40  service postgresql restart
+   41  service postgresql status 
+   42  python3 manage.py migrate
+   43  pip freeze
+   44  python3 manage.py migrate
+   45  cat /etc/postgresql/12/main/pg_hba.conf 
+   46  sudo cat /etc/postgresql/12/main/pg_hba.conf 
+   47  sudo nano /etc/postgresql/12/main/pg_hba.conf 
+   48  python3 manage.py migrate
+   49  service postgresql restart
+   50  service postgresql status 
+   51  python3 manage.py migrate
+   52  ls
+   53  sudo nano /etc/postgresql/12/main/pg_hba.conf 
+   54  service postgresql restart
+   55  python3 manage.py migrate
+   56  pip install pytz
+   57  python3 manage.py loaddata db.json
+   58  python3 manage.py loaddata data.json 
+   59  sudo -u postgres psql
+   60  shutdown 0
+   61  sudo shutdow 0
+   62  sudo shutdown 0
+   63  sudo -u postgres psql
+   64  service postgresql restart 
+   65  cd geekshop/
+   66  python3 manage.py migrate
+   67  python3 manage.py loaddata 
+   68  python3 manage.py loaddata db.json 
+   69  sudo -u postgres psql
+   70  python3 manage.py migrate
+   71  python3 manage.py loaddata db.json 
+   72  sudo -u postgres psql
+   73  sudo -u postgres psql
+   74  sudo -u postgre psql
+   75  sudo -u postgres psql
+   76  sudo nano /etc/postgresql/12/main/pg_hba.conf 
+   77  sudo -u postgres psql
+   78  sudo nano /etc/postgresql/12/main/pg_hba.conf 
+   79  service postgresql restart
+   80  sudo -u postgres psql
+   81  cd geekshop/
+   82  source django/bin/activate
+   83  python3 manage.py migrate
+   84  sudo nano /etc/postgresql/12/main/pg_hba.conf 
+   85  python3 manage.py migrate
+   86  service postgresql restart
+   87  python3 manage.py migrate
+   88  python3 manage.py loaddata data.json 
+   89  sudo -u postgres psql
+   90  python3 manage.py migrate
+   91  python3 manage.py loaddata data.json
+   92  sudo shutdown 0
+   93  sudo -u postgres psql
+   94  service postgresql restart
+   95  python3 manage.py migrate
+   96  cd geekshop/
+   97  source django/bin/activate
+   98  python3 manage.py migrate
+   99  service postgresql restart
+  100  python3 manage.py loaddata db.json
+  101  sudo shutdown 0
+  102  cd geekshop/
+  103  source django/bin/activate
+  104  sudo -u postgres psql
+  105  python3 manage.py migrate
+  106  python3 manage.py loaddata db.json 
+  107  python3 manage.py migrate
+  108  sudo -u postgres psql
+  109  python3 manage.py migrate
+  110  python3 manage.py loaddata db.json 
+  111  sudo apt-get install nginx
+  112  cd geekshop/
+  113  ls
+  114  source django/bin/activate
+  115  pip install gunicorn-20.0.4
+  116  pip install gunicorn
+  117  sudo nano /etc/systemd/system/gunicorn.service
+  118  sudo systemctl enable gunicorn
+  119  sudo systemctl start gunicorn
+  120  sudo systemctl status gunicorn
+  121  sudo systemctl start gunicorn
+  122  sudo systemctl status gunicorn
+  123  pip install gunicorn
+  124  sudo nano /etc/systemd/system/gunicorn.service
+  125  sudo systemctl start gunicorn
+  126  systemctl daemon-reload 
+  127  sudo systemctl restart gunicorn
+  128  sudo systemctl status gunicorn
+  129  sudo nano /etc/systemd/system/gunicorn.service
+  130  sudo systemctl status gunicorn
+  131  sudo systemctl restart gunicorn
+  132  systemctl daemon-reload 
+  133  sudo systemctl start gunicorn
+  134  sudo systemctl status gunicorn
+  135  cd django/bin/
+  136  ls
+  137  sudo nano /etc/systemd/system/gunicorn.service
+  138  sudo systemctl start gunicorn
+  139  systemctl daemon-reload 
+  140  sudo systemctl start gunicorn
+  141  sudo systemctl status gunicorn
+  142  sudo nano /etc/nginx/sites-available/geekshop
+  143  sudo ln -s /etc/nginx/sites-available/geekshop /etc/nginx/sites-enabled/
+  144  sudo nginx -t
+  145  sudo service nginx restart 
+  146  cd /var/log/nginx/
+  147  ls
+  148  tail -f error.log 
+  149  tail -f access.log 
+  150  tail -f error.log 
+  151  cd ~
+  152  ls
+  153  history > em_server.log
